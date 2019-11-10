@@ -1,0 +1,16 @@
+
+/deep/ agm-map {
+  width: 100%;  
+  height: 100vh;
+}
+
+.control-panel{
+  position: fixed;
+  top:10px;
+  background: #8080804d;
+  width: calc(100vw - 100px);
+  height:50px;
+  z-index: 2;
+  left:50px;
+  padding:13px 10%;
+}

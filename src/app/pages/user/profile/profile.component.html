@@ -1,0 +1,35 @@
+<div class="fitbody">
+  <div class="row bp-head">
+    <div class="col-lg-12 bp-menu">
+      <bpmenu></bpmenu>
+    </div>
+  </div>
+  <div class="row bp-body">
+    <div class="col-lg-4 area1">
+      <h2>transactions list</h2>
+      <div class="table-responsive">
+        <table class="table table-striped" *ngIf="transactions">
+          <thead>
+            <td scope="col">Name</td>
+            <td scope="col">Mark</td>
+            <td scope="col">FT</td>
+            <td scope="col">Created date</td>
+          </thead>
+          <tbody>
+            <tr *ngFor="let tran of transactions">
+              <th  scope="row">{{tran.name}}</th>
+              <td>{{tran.mark}}</td>
+              <td>{{tran.ft}}</td>
+              <td>{{tran.created}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-lg-4 area2">banklistdemo list</div>
+    <div class="col-lg-4 area3">area 3</div>
+  </div>
+  <div class="row bp-foot">
+    <bpfooter></bpfooter>
+  </div>
+</div>

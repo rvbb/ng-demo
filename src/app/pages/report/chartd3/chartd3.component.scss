@@ -1,0 +1,44 @@
+ngx-d3-pie,
+ngx-d3-advanced-pie,
+ngx-d3-area-stack,
+ngx-d3-line,
+ngx-d3-polar {
+  display: block;
+  width: auto;
+  min-width: 500px;
+  height: 300px;
+
+  /deep/ {
+    // .pie-label {
+    //   fill: nb-theme(color-fg-heading);
+    // }
+
+    // .grid-line-path {
+    //   stroke: nb-theme(separator);
+    // }
+
+    // text {
+    //   fill: nb-theme(color-fg-heading);
+    // }
+
+    .chart-legend {
+      .legend-labels {
+        background: #fff;
+      }
+      .legend-label {
+        color: #000;
+        .active .legend-label-text {
+          color: green;
+        }
+      }
+    }
+  }
+}
+
+.row{
+  background: #8080805e;
+  margin:20px 15%;
+}
+.actions{
+  margin: 5px 15%;
+}
