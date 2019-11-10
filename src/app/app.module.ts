@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright Viettel Digital Corps. All Rights Reserved.
+ ** Copyright N.V Hoang. All Rights Reserved.
  */
 import { APP_BASE_HREF } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';

@@ -1,13 +1,13 @@
 {
-  "name": "demoweb",
+  "name": "ng-demo",
   "version": "1.0.0-DEV",
-  "license": "Viettel Digital Corps copyright",
+  "license": "Copyright N.V Hoang.",
   "repository": {
     "type": "git",
-    "url": "git+http://bitbucket.digital.vn/webapp/newweb/frontend/bankplus.git"
+    "url": "https://github.com/rvbb/ng-demo.git"
   },
   "bugs": {
-    "url": "https://code.vietteldigital.vn/issues"
+    "url": "https://code.hoangnv.vn/issues"
   },
   "browserslist": [
     "> 1%",

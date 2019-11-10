@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright Viettel Digital Corps. All Rights Reserved.
+ * Copyright N.V Hoang. All Rights Reserved.
  */
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
